@@ -1,0 +1,19 @@
+#index_grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 2fr;
+    padding-top: 10%;
+    margin-left: 15%;
+    margin-right: 15%;
+}
+#index_grid h1{
+    font-size: 75px;
+    grid-column: 1/2;
+    grid-row: 1/2;
+    justify-self: center;
+}
+#index_grid p{
+    font-size: 40px;
+    grid-column: 2/2;
+    grid-row: 2/2;
+}
