@@ -27,11 +27,16 @@ header {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-
+header p{
+    grid-column: 1/2;
+    font-size: 150%;
+    margin-left: 20px;
+}
 nav {
   /* outline: 2px dashed blue; */
   grid-column: 2/3;
   font-family: "Dosis";
+  margin-top: 10px;
 }
 
 ul {
