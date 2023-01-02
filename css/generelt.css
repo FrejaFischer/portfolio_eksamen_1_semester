@@ -3,35 +3,38 @@
   src: url("../font/Dosis/static/Dosis-Regular.ttf");
 }
 @font-face {
-    font-family: "Dosis semibold";
-    src: url("../font/Dosis/static/Dosis-SemiBold.ttf");
-  }
+  font-family: "Dosis semibold";
+  src: url("../font/Dosis/static/Dosis-SemiBold.ttf");
+}
 @font-face {
   font-family: "Noto";
   src: url("../font/Noto_Serif/NotoSerif-Regular.ttf");
 }
 
-main {
-  height: 100%;
-  background-image: url("assets/forside_baggrund.png");
+/* main {
+  height: 82.5vh;
+  background-image: url("assets/forside_baggrund.svg");
   background-size: cover;
-}
+} */
 
-body {
+/* body {
   margin: 0;
+  height: 100vh;
   background: linear-gradient(45deg, #3689d1, #bed4fa);
-}
+} */
+body {
+    margin: 0;
+    height: 100vh;
+    background-image: url("assets/index_baggrund_1.png");
+    background-size: cover;
+  }
 
 /*-----navigation----------------------*/
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
 }
-header p{
-    grid-column: 1/2;
-    font-size: 150%;
-    margin-left: 20px;
-}
+
 nav {
   /* outline: 2px dashed blue; */
   grid-column: 2/3;
