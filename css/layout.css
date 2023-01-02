@@ -47,11 +47,13 @@
 }
 /*---------------------------------------------*/
 
+/*-----portfolio-------------------------------*/
 .left_2_1 {
   display: grid;
   grid-template-columns: 2fr 1fr;
-  margin-left: 17%;
+  margin-left: 12%;
   margin-right: 10%;
+  margin-bottom: 10%;
 }
 
 .dark_box {
@@ -69,12 +71,49 @@
   background-color: #c9ebff;
   border-radius: 40px;
   height: 500px;
-  width: 400px;
+  width: 550px;
   position: relative;
   left: -20%;
   z-index: 1;
 }
 
+.right_1_2 {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-rows: 1fr;
+  margin-left: 5%;
+  margin-right: 12%;
+  margin-bottom: 10%;
+}
+
+.dark_box_2 {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #3689d1;
+  border-radius: 40px;
+  height: 500px;
+  width: 700px;
+  /* position: absolute; */
+  display: grid;
+  grid-template-rows: 1fr 4fr;
+  z-index: 2;
+}
+
+.light_box_2 {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  background-color: #c9ebff;
+  border-radius: 40px;
+  height: 500px;
+  width: 550px;
+  position: relative;
+  left: 20%;
+  z-index: 1;
+}
+
+/*---------------------------------------------*/
+
+/*-----animation-------------------------------*/
 .come_out {
   animation-name: come_out;
   animation-duration: 2s;
@@ -89,3 +128,19 @@
     translate: 0% 0%;
   }
 }
+
+.come_out_2 {
+  animation-name: come_out_2;
+  animation-duration: 2s;
+  animation-iteration-count: 1;
+  /* animation-iteration-count: infinite; */
+}
+@keyframes come_out_2 {
+  from {
+    translate: 100% 0%;
+  }
+  to {
+    translate: 0% 0%;
+  }
+}
+/*---------------------------------------------*/
