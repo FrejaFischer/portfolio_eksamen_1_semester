@@ -1,7 +1,11 @@
 @font-face {
   font-family: "Dosis";
-  src: url("../font/Dosis/Dosis-VariableFont_wght.ttf");
+  src: url("../font/Dosis/static/Dosis-Regular.ttf");
 }
+@font-face {
+    font-family: "Dosis semibold";
+    src: url("../font/Dosis/static/Dosis-SemiBold.ttf");
+  }
 @font-face {
   font-family: "Noto";
   src: url("../font/Noto_Serif/NotoSerif-Regular.ttf");
@@ -18,6 +22,7 @@ body {
   background: linear-gradient(45deg, #3689d1, #bed4fa);
 }
 
+/*-----navigation----------------------*/
 header {
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -27,7 +32,6 @@ nav {
   /* outline: 2px dashed blue; */
   grid-column: 2/3;
   font-family: "Dosis";
-  margin-top: 5%;
 }
 
 ul {
@@ -52,12 +56,17 @@ ul a {
   padding-left: 30%;
   padding-right: 30%;
 }
+/*-----------------------------------*/
 
 h1 {
-  font-family: "Dosis";
+  font-family: "Dosis semibold";
   color: #c9ebff;
 }
 p {
   font-family: "Noto";
   color: #003452;
+}
+a {
+  font-family: "Dosis";
+  text-decoration: none;
 }
