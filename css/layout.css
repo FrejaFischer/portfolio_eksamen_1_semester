@@ -93,7 +93,6 @@
   border-radius: 40px;
   height: 500px;
   width: 700px;
-  /* position: absolute; */
   display: grid;
   grid-template-rows: 1fr 4fr;
   z-index: 2;
@@ -111,11 +110,40 @@
   z-index: 1;
 }
 
+#cloud_container {
+  width: 50%;
+  aspect-ratio: 3/4;
+  position: absolute;
+  z-index: 1;
+}
+#cloud_sprite {
+  width: 73%;
+  height: 13%;
+  background-image: url("assets/cloud_1.svg");
+  background-size: cover;
+}
+
 /*---------------------------------------------*/
 
 /*-----animation-------------------------------*/
 .hide {
   display: none;
+}
+
+.cloud_fly {
+  animation-name: cloud_fly;
+  animation-duration: 15s;
+  /* animation-iteration-count: infinite; */
+  animation-iteration-count: 1;
+  animation-timing-function: linear;
+}
+@keyframes cloud_fly {
+  0% {
+    translate: -50% 0%;
+  }
+  100% {
+    translate: 50% 0%;
+  }
 }
 
 

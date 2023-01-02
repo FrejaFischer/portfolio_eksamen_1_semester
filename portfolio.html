@@ -9,7 +9,7 @@
     <link rel="stylesheet" href="css/layout.css" />
     <title>Portfolio</title>
   </head>
-  <body>
+  <body id="portfolio_body">
     <header>
       <div id="header_logo">
         <a href="index.html">
@@ -19,14 +19,17 @@
       </div>
       <nav>
         <ul>
-          <li><a class="first" href="index.html">Forside</a></li>
-          <li><a href="portfolio.html">Portfolio</a></li>
+          <li><a href="index.html">Forside</a></li>
+          <li><a class="first" href="portfolio.html">Portfolio</a></li>
           <li><a href="om_mig.html">Om mig</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <div class="left_2_1">
+        <div id="cloud_container">
+            <div id="cloud_sprite"></div>
+          </div>
+      <div class="left_2_1" id="left_1">
         <div class="dark_box">
           <h1>Studiestartsprøven</h1>
           <p>
@@ -40,7 +43,7 @@
         </div>
       </div>
 
-      <div class="right_1_2">
+      <div class="right_1_2" id="right_1">
         <div class="dark_box_2">
           <h1>Emnesite</h1>
           <p>
@@ -54,7 +57,7 @@
         </div>
       </div>
 
-      <div class="left_2_1">
+      <div class="left_2_1" id="left_2">
         <div class="dark_box">
           <h1>T-shirt webshop / UX</h1>
           <p>
@@ -68,7 +71,7 @@
         </div>
       </div>
 
-      <div class="right_1_2">
+      <div class="right_1_2" id="right_2">
         <div class="dark_box_2">
           <h1>Animation / Supermur!</h1>
           <p>
@@ -82,7 +85,7 @@
         </div>
       </div>
 
-      <div class="left_2_1">
+      <div class="left_2_1" id="left_3">
         <div class="dark_box">
           <h1>Pilotsite</h1>
           <p>
@@ -96,7 +99,7 @@
         </div>
       </div>
 
-      <div class="right_1_2">
+      <div class="right_1_2" id="right_3">
         <div class="dark_box_2">
           <h1>Redesign af Trans Consult</h1>
           <p>
@@ -110,7 +113,7 @@
         </div>
       </div>
 
-      <div class="left_2_1">
+      <div class="left_2_1" id="left_4">
         <div class="dark_box">
           <h1>Portfolio eksamen</h1>
           <p>
@@ -124,7 +127,11 @@
         </div>
       </div>
     </main>
-    <footer></footer>
+    <footer>
+      <p>Portfolio eksamen</p>
+      <p>Freja Fischer Nielsen</p>
+      <p>Januar 2023</p>
+    </footer>
     <script src="js/portfolio.js"></script>
   </body>
 </html>
