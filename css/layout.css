@@ -73,7 +73,7 @@
   height: 500px;
   width: 550px;
   position: relative;
-  left: -20%;
+  left: -12%;
   z-index: 1;
 }
 
@@ -114,6 +114,11 @@
 /*---------------------------------------------*/
 
 /*-----animation-------------------------------*/
+.hide {
+  display: none;
+}
+
+
 .come_out {
   animation-name: come_out;
   animation-duration: 2s;
