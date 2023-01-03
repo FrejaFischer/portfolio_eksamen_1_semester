@@ -33,17 +33,27 @@
   grid-column: 2/2;
   grid-row: 2/3;
 }
-#index_grid a {
+/* #button_container {
   font-size: 55px;
   grid-column: 2/2;
   grid-row: 3/4;
   justify-self: center;
+  width: 50%;
+} */
+#button_sprite {
+  font-size: 55px;
+  grid-column: 2/2;
+  grid-row: 3/4;
+  justify-self: center;
+  background-image: url("assets/button_index.svg");
+  background-size: cover;
+  display: grid;
+  width: 53%;
+  height: 39%;
+}
+#button_sprite a{
   color: #c9ebff;
-  background-color: #3689d1;
-  border-radius: 40px;
-  padding-left: 8%;
-  padding-right: 8%;
-  height: 80px;
+  justify-self: center;
 }
 /*---------------------------------------------*/
 
@@ -146,7 +156,6 @@
   }
 }
 
-
 .come_out {
   animation-name: come_out;
   animation-duration: 2s;
@@ -174,6 +183,20 @@
   }
   to {
     translate: 0% 0%;
+  }
+}
+
+.pulse {
+  animation-name: pulse;
+  animation-duration: 3s;
+  animation-iteration-count: infinite;
+}
+@keyframes pulse {
+  0%, 100%{
+    scale: 1;
+  }
+  50%{
+    scale: 1.1;
   }
 }
 /*---------------------------------------------*/
