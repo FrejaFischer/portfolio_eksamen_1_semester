@@ -34,16 +34,10 @@ dfn {
   font-size: 17px;
 }
 /* main {
-  height: 82.5vh;
-  background-image: url("assets/forside_baggrund.svg");
-  background-size: cover;
+  margin-left: 10%;
+  margin-right: 10%;
 } */
 
-/* body {
-  margin: 0;
-  height: 100vh;
-  background: linear-gradient(45deg, #3689d1, #bed4fa);
-} */
 #index_body {
   margin: 0;
   height: 100vh;

@@ -9,7 +9,7 @@ function showSite() {
     document.querySelector("#show_6").classList.add("hide");
     document.querySelector("#show_7").classList.add("hide");
 
-    document.querySelector("#left_1").addEventListener("mouseenter", showImg1)
+    document.querySelector("#hover_1").addEventListener("mouseenter", showImg1)
     document.querySelector("#left_2").addEventListener("mouseenter", showImg2)
     document.querySelector("#left_3").addEventListener("mouseenter", showImg3)
     document.querySelector("#left_4").addEventListener("mouseenter", showImg4)

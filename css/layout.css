@@ -71,6 +71,8 @@
 }
 
 .light_box {
+  grid-column: 1/2;
+  grid-row: 1/2;
   background-color: #c9ebff;
   border-radius: 40px;
   height: 600px;
@@ -136,7 +138,7 @@
 
 .right_1_2 {
   display: grid;
-  grid-template-columns: 1fr 2fr;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
   margin-left: 6%;
   margin-right: 12%;
@@ -168,6 +170,10 @@
   display: grid;
   grid-template-columns: repeat(5, 1fr);
   grid-template-rows: repeat(4, 1fr);
+}
+
+.right_1{
+  margin-right: 10%;
 }
 
 #cloud_container {
