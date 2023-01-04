@@ -29,6 +29,10 @@ a {
   font-family: "Dosis semibold";
   text-decoration: none;
 }
+dfn {
+  font-family: "Noto";
+  font-size: 17px;
+}
 /* main {
   height: 82.5vh;
   background-image: url("assets/forside_baggrund.svg");
@@ -50,15 +54,15 @@ a {
 }
 
 #portfolio_body {
-    margin: 0;
-    height: 100vh;
-    background-image: url("assets/portfolio_baggrund.png");
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    display: grid;
-    grid-template-rows: 1fr auto 1fr;
-  }
+  margin: 0;
+  height: 100vh;
+  background-image: url("assets/portfolio_baggrund.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  display: grid;
+  grid-template-rows: 1fr auto 1fr;
+}
 
 /*-----navigation----------------------*/
 header {
