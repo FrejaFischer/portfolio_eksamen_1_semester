@@ -23,7 +23,8 @@ p {
   margin-left: 30px;
   margin-right: 10px;
   margin-bottom: 0px;
-  font-size: 93%;
+  /* font-size: 1.3vw; */
+  font-size: 15.9px;
 }
 a {
   font-family: "Dosis semibold";
@@ -101,6 +102,7 @@ ul a {
   display: grid;
   grid-template-rows: 1fr 1fr;
   margin-left: 25px;
+  z-index: 2;
 }
 #header_logo p {
   margin-bottom: 0px;
@@ -129,5 +131,9 @@ footer {
 }
 #footer_portfolio {
   padding-bottom: 15px;
+}
+footer p{
+    margin-left: 0;
+    margin-right: 0;
 }
 /*-----------------------------------*/
