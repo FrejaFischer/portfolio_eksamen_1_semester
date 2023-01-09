@@ -378,6 +378,11 @@ figure {
   }
 
   /*-----index--------*/
+  #index_body {
+    background-image: url("assets/index_baggrund_1.png");
+    grid-template-rows: 2fr 4fr 2fr;
+  }
+
   #index_grid p {
     font-size: 175%;
     width: 275px;
@@ -415,7 +420,7 @@ figure {
     background-repeat: no-repeat;
     background-attachment: fixed;
     display: grid;
-    grid-template-rows: 1fr auto 1fr;
+    grid-template-rows: 2fr auto 2fr;
   }
 
   #hover_1,
