@@ -40,7 +40,7 @@ dfn {
   margin-right: 10%;
 } */
 
-#index_body {
+#index_body, #om_mig_body {
   margin: 0;
   height: 100vh;
   background-image: url("assets/index_baggrund_1.png");
@@ -99,6 +99,11 @@ ul a {
   padding-left: 10%;
   padding-right: 10%;
 }
+
+li {
+    width: 90px;
+}
+
 #header_logo {
   display: grid;
   grid-template-rows: 1fr 1fr;
@@ -130,7 +135,7 @@ footer {
   margin-right: 75px;
   padding-top: 30px;
 }
-#footer_portfolio {
+.footer_special {
   padding-bottom: 15px;
 }
 footer p{
