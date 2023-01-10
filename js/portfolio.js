@@ -50,4 +50,5 @@ function showCv() {
 
   document.querySelector(".light_box_ekstra").classList.add("come_out_7");
   document.querySelector(".dark_box_ekstra").classList.add("come_out_7");
+
 }
