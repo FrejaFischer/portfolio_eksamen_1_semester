@@ -588,7 +588,7 @@ figure {
 }
 @keyframes come_out_7 {
   from {
-    translate: 0% -30%;
+    translate: 0% -15%;
     opacity: 0%;
   }
   to {
