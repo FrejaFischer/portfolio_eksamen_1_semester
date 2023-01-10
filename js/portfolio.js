@@ -9,6 +9,8 @@ function appearSite() {
   document.querySelector("#show_5").classList.add("hide");
   document.querySelector("#show_6").classList.add("hide");
   document.querySelector("#show_7").classList.add("hide");
+  document.querySelector(".light_box_ekstra").classList.add("hide");
+  document.querySelector(".dark_box_ekstra").classList.add("hide");
   document.querySelector("#portfolio_main").classList.add("appear");
   document.querySelector("#portfolio_main").addEventListener("animationend", showSite);
 }
@@ -34,4 +36,18 @@ function showSite() {
   document.querySelector("#show_5").classList.add("come_out");
   document.querySelector("#show_6").classList.add("come_out_2");
   document.querySelector("#show_7").classList.add("come_out");
+
+  document.querySelector("#arrow_container").classList.add("arrow");
+  document.querySelector("#light_box_7").addEventListener("mouseenter", showCv);
+}
+
+function showCv() {
+  console.log("showCv");
+  document.querySelector(".light_box_ekstra").classList.remove("hide");
+  document.querySelector(".dark_box_ekstra").classList.remove("hide");
+
+  document.querySelector("#arrow_container").classList.add("hide");
+
+  document.querySelector(".light_box_ekstra").classList.add("come_out_7");
+  document.querySelector(".dark_box_ekstra").classList.add("come_out_7");
 }
